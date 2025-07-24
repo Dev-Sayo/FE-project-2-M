@@ -48,9 +48,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     animation: slideshow 15s ease-in-out infinite;
-    border-radius: 20px;
-    
-
+    border-radius: 20px;    
 }
 @keyframes slideshow {
 0% { background-image: url("allbirds-images/slide-image1.jpg"); }
@@ -450,6 +448,9 @@ input, button{
     display: grid;
     font-size: 12px;
     row-gap: 700px;
+}
+.footer-top ul li a:hover{
+    text-decoration: underline;
 }
 .col4{
     display: grid;
