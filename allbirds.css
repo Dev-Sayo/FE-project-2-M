@@ -16,6 +16,9 @@ body{
     background: beige;
     font-family: 'poppins';
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     padding: 0;
     margin: 0;
@@ -150,10 +153,12 @@ header{
     width: 350px;
     margin: 10px;
     top: 85%;
-}
-.info{
     font-size: 22px;
-    text-align: center;
+}
+.btn{
+    background: transparent;
+    border: none;
+    color: black;
 }
 .black-color img{
     width: 100%;
